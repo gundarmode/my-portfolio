@@ -1,0 +1,14 @@
+
+body {
+    background-size: 5px 5px;
+    background-image: conic-gradient(
+      #000 90deg,
+      #000 90deg 180deg,
+      #000 180deg 270deg,
+      #191919 270deg
+    );
+  }
+
+  .main-title {
+      font-size:180px; font-weight:700; color:#fff; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); text-transform:uppercase; width:100%; display:flex; justify-content:center;
+  }
